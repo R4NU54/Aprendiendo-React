@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { AddCategory, GifGrid } from './components';
 
 export const GifApp = () => {
-  const [categories, setCategories] = useState(['One Punch']);
+  const [categories, setCategories] = useState(['Breaking Bad']);
 
   const handleAdd = (newCategory) => {
     if (categories.includes(newCategory)) return;
