@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente AddCategory Debe ser como el snapshot 1`] = `
+<div>
+  <form
+    aria-label="form"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </form>
+</div>
+`;

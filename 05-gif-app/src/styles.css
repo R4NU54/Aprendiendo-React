@@ -4,7 +4,22 @@
 }
 
 body {
-  padding: 60px;
+  padding: 0px 60px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  h1 {
+    font-size: 3rem;
+    opacity: 0.8;
+  }
+  img {
+    width: 200px;
+  }
 }
 
 input {
