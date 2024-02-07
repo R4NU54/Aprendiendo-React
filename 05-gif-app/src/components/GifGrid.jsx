@@ -1,8 +1,7 @@
-import { GiftItem } from './GiftItem';
+import { GifItem } from './GifItem';
 
 import { useFetchGifs } from '../hooks/useFetchGifs';
 
-// eslint-disable-next-line react/prop-types
 export const GifGrid = ({ category }) => {
   const { images, isLoading } = useFetchGifs(category);
 
@@ -12,7 +11,7 @@ export const GifGrid = ({ category }) => {
       {isLoading && <p>Loading...</p>}
       <div className='card-grid'>
         {images.map((images) => (
-          <GiftItem
+          <GifItem
             key={images.id}
             {...images}
           />

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { AddCategory, GifGrid } from './components';
+import { AddCategory, GifGrid, GifHeader } from './components';
 
 export const GifApp = () => {
   const [categories, setCategories] = useState(['Breaking Bad']);
@@ -13,8 +13,7 @@ export const GifApp = () => {
 
   return (
     <>
-      <h1>Gif App</h1>
-
+      <GifHeader />
       <AddCategory onNewCategory={handleAdd} />
 
       {categories.map((category) => (
