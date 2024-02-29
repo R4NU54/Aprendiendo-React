@@ -10,19 +10,14 @@ import './index.css';
 // import { Memorize } from './05-memos/Memorize';
 // import { MemoHook } from './05-memos/MemoHook';
 // import { UseCalbackHook } from './05-memos/CallbackHook';
-import { Padre } from './06-tarea-memo/Padre';
+// import { Padre } from './06-tarea-memo/Padre';
+// import './07-useReducer/intro-reducer';
+
+import { TodoApp } from './07-useReducer/TodoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <CounterApp /> */}
-    {/* <CounterWithCustomHook /> */}
-    {/* <SimpleForm /> */}
-    {/* <FormWithCustomHook /> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* <FocusScreen /> */}
-    {/* <Memorize /> */}
-    {/* <MemoHook /> */}
-    {/* <UseCalbackHook /> */}
-    <Padre />
-  </React.StrictMode>
+  // <React.StrictMode>
+
+  <TodoApp />
+  // </React.StrictMode>
 );
