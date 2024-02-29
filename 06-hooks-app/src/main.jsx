@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 // import { CounterApp } from './01-useState/CounterApp';
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
@@ -12,12 +13,12 @@ import './index.css';
 // import { UseCalbackHook } from './05-memos/CallbackHook';
 // import { Padre } from './06-tarea-memo/Padre';
 // import './07-useReducer/intro-reducer';
+// import { TodoApp } from './07-useReducer/TodoApp';
 
-import { TodoApp } from './07-useReducer/TodoApp';
+import { MainApp } from './08-useContex/MainApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
-
-  <TodoApp />
-  // </React.StrictMode>
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
 );
