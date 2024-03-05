@@ -13,8 +13,6 @@ export const todoReducer = (initialState, action) => {
             ...todo,
             done: !todo.done,
           };
-        } else {
-          return todo;
         }
       });
 
