@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, Link } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { UserProvider } from './context/UserContext';
 
 import { AboutPage, HomePage, LoginPage } from './pages';

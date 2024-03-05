@@ -3,5 +3,12 @@ import { UserContext } from '../context/UserContext';
 
 export const HomePage = () => {
   const { user } = useContext(UserContext);
-  return <pre>{JSON.stringify(user, null, 3)}</pre>;
+  return (
+    <>
+      <h1>HomePage</h1>
+      <p>{user ? user.name : ''}</p>
+      <hr />
+      <pre aria-label="pre">{JSON.stringify(user, null, 3)}</pre>;
+    </>
+  );
 };
