@@ -1,12 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import { RouterComponent } from '@/core/router/RouterComponent';
 
 function App() {
-
   return (
-    <>
-      <h1>HeroesApp</h1>
-
-    </>
-  )
+    <BrowserRouter>
+      <RouterComponent />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
