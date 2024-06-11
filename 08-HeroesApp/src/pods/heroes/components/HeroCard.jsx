@@ -7,7 +7,7 @@ const CharactersByHero = ({ alter_ego, characters }) => {
 };
 
 export const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) => {
-  const heroImageUrl = `src/assets/${id}.webp`;
+  const heroImageUrl = `/src/assets/${id}.webp`;
 
   return (
     <div className="col animate__animated animate__fadeIn">
