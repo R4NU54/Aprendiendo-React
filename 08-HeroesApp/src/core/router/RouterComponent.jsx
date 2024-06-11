@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import { LoginPage } from '@/pods/auth/pages/';
+
 import { HeroRouter } from '@/pods/heroes/routes';
+import { LoginPage } from '@/pods/auth/pages/';
 
 export const RouterComponent = () => {
   return (
